@@ -4,7 +4,7 @@
 
 {% block content %}
 
-<section class="hero">
+<section class="hero hero-bold">
     <div class="hero-inner">
         <div class="hero-badge">Personal Finance Tracker</div>
         <h1 class="hero-title">
@@ -12,9 +12,8 @@
             <em>money goes</em>
         </h1>
         <p class="hero-subtitle">
-            Log expenses, understand your spending patterns,
-            and take control of your financial life —
-            one transaction at a time.
+            Log expenses, spot your patterns, and take control
+            of your money — one tap at a time.
         </p>
         <div class="hero-actions">
             <a href="{{ url_for('register') }}" class="btn-primary">Start tracking free</a>
@@ -22,7 +21,7 @@
         </div>
     </div>
     <div class="hero-visual">
-        <div class="mock-card">
+        <div class="mock-card mock-card-pop">
             <div class="mock-card-header">
                 <span class="mock-label">March 2026</span>
                 <span class="mock-total">₹12,450</span>
@@ -61,27 +60,27 @@
     </div>
 </section>
 
-<section class="features">
+<section class="features features-playful">
     <div class="features-inner">
-        <div class="feature-card">
-            <div class="feature-icon">₹</div>
+        <div class="feature-card feature-card-playful">
+            <div class="feature-icon-bubble feature-icon-bubble-1">₹</div>
             <h3 class="feature-title">Log expenses instantly</h3>
             <p class="feature-body">Add any expense in seconds. Category, amount, date, description — all in one simple form.</p>
         </div>
-        <div class="feature-card">
-            <div class="feature-icon">◎</div>
+        <div class="feature-card feature-card-playful">
+            <div class="feature-icon-bubble feature-icon-bubble-2">◎</div>
             <h3 class="feature-title">Understand your patterns</h3>
             <p class="feature-body">See exactly where your money goes with category breakdowns and monthly summaries.</p>
         </div>
-        <div class="feature-card">
-            <div class="feature-icon">◷</div>
+        <div class="feature-card feature-card-playful">
+            <div class="feature-icon-bubble feature-icon-bubble-3">◷</div>
             <h3 class="feature-title">Filter by time period</h3>
             <p class="feature-body">View your spending for any date range — last week, last month, or a custom period.</p>
         </div>
     </div>
 </section>
 
-<section class="cta-section">
+<section class="cta-section cta-section-bold">
     <div class="cta-inner">
         <h2 class="cta-title">Ready to take control?</h2>
         <p class="cta-body">Join thousands of people who track their expenses with Spendify.</p>
